@@ -14,7 +14,6 @@ document.addEventListener("keypress" , function(event){
   makeSound(event.key);
 });
 
-
 function makeSound(key)
 {
   switch (key) {
