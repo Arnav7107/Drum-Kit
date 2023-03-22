@@ -9,7 +9,6 @@ for(var i=0; i<document.querySelectorAll(".drum").length; i++)
   });
 }
 
-
 document.addEventListener("keypress" , function(event){
   makeSound(event.key);
 });
